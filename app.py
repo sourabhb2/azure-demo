@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Sourabh! Python deployed successfully 🚀"
+    return "Hello Sourabh! Python deployed successfully"
 
 # IMPORTANT for Azure
 if __name__ == "__main__":
